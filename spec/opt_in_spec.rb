@@ -36,7 +36,6 @@ describe 'Patch request' do
   end
 end
 
-
 describe 'Delete request' do
   it 'should delete  opt-in' do
     delete 'http://localhost:4567/opt_ins/5b74599b6177ec5459fff61c'
